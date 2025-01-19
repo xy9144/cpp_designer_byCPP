@@ -1,0 +1,18 @@
+#include "resource.h"
+#include <windows.h>
+1001 RCDATA "TOOLBAR_ICOS.dat"
+
+// 字符串资源
+STRINGTABLE
+BEGIN
+    2001    "这是第一个字符串"
+    2002    "这是第二个字符串"
+    2003    "这是第三个字符串"
+END
+
+
+
+
+
+
+

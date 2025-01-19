@@ -1,0 +1,1 @@
+windres resource.rc -O coff -o resource.o && g++ hello.cpp resource.o -o hello_release.exe -mwindows -lgdiplus -lcomctl32 -lole32 -std=c++11 && del resource.o

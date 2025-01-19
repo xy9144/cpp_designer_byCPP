@@ -1,0 +1,28 @@
+MainWindow.h: 包含主要的窗口定义和全局变量
+Controls.h: 处理控件创建和管理
+JsonHandler.h: 处理 JSON 文件的读写
+Utils.h: 包含通用的工具函数
+CodeGenerator.h: 处理代码生成功能
+
+项目根目录/
+├── include/
+│   ├── MainWindow.h
+│   ├── Controls.h
+│   ├── JsonHandler.h
+│   ├── Utils.h
+│   ├── CodeGenerator.h
+│   ├── CodeWindow.h
+│   └── Resource.h
+├── src/
+│   ├── Main.cpp
+│   ├── MainWindow.cpp
+│   ├── Controls.cpp
+│   ├── JsonHandler.cpp
+│   ├── Utils.cpp
+│   ├── CodeWindow.cpp
+│   └── CodeGenerator.cpp
+├── res/
+│   ├── 工具条图标组.dat
+│   └── 组件图标组.dat
+└── libs/
+    └── cJSON/
